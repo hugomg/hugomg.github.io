@@ -1,6 +1,7 @@
 base_url = "https://hugomg.github.io"
 compile_sass = false
 build_search_index = false
+hard_link_static = true
 
 [markdown]
 highlight_code = true
