@@ -5,15 +5,27 @@
   {{ section.title }}
 </h1>
 <ul>
-  {% for page in section.pages %}
-  <li>
+    {% for page in section.pages %}
+    <li>
         <strong>{{page.title}}</strong><br>
         {{page.extra.authors}}, {{page.year}}<br>
         <em>{{page.extra.where}}</em>
         <a class="symbol-link" href="../{{page.relative_path | replace(from=".md", to=".pdf") | safe}}">📄</a>
         <a class="symbol-link" href="{{page.extra.doi | safe}}">🔗</a>
-  </li>
-
-  {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+<h2>Thesis</h2>
+<ul>
+    <li>
+        <strong>The Pallene Programming Language</strong> <br>
+        <em>PhD Thesis</em>, 2020
+        <a class="symbol-link" href="Hugo-Gualandi-phd-thesis.pdf">📄</a>
+    </li>
+    <li>
+        <strong>Typing Dynamic Languages: a Review</strong> <br>
+        <em>Master's Dissertation</em>, 2015
+        <a class="symbol-link" href="Hugo-Gualandi-msc-dissertation.pdf">📄</a>
+    </li>
 </ul>
 {% endblock content %}
