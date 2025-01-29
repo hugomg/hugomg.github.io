@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<ul>
+  {% for page in section.pages %}
+  <li>
+        <strong>{{page.title}}</strong><br>
+        {{page.extra.authors}}, {{page.year}}<br>
+        <em>{{page.extra.where}}</em>
+        <a class="symbol-link" href="../{{page.relative_path | replace(from=".md", to=".pdf") | safe}}">📄</a>
+        <a class="symbol-link" href="{{page.extra.doi | safe}}">🔗</a>
+  </li>
+
+  {% endfor %}
+</ul>
+{% endblock content %}

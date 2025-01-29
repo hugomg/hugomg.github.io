@@ -11,5 +11,9 @@ body {
 }
 
 li {
-  margin: 10px 0;
+    margin: 10px;
+}
+
+.symbol-link {
+    text-decoration: none;
 }
