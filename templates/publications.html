@@ -1,10 +1,8 @@
-{% extends "base.html" %}
+{% extends "section.html" %}
 
 {% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
-<ul>
+<h1>Publications</h1>
+<ol>
     {% for page in section.pages %}
     <li>
         <strong>{{page.title}}</strong><br>
@@ -15,7 +13,7 @@
     </li>
     {% endfor %}
 </ul>
-<h2>Thesis</h2>
+<h1>Thesis</h1>
 <ul>
     <li>
         <strong>The Pallene Programming Language</strong> <br>
