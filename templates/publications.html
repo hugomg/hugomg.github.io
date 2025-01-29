@@ -8,7 +8,7 @@
         <strong>{{page.title}}</strong><br>
         {{page.extra.authors}}, {{page.year}}<br>
         <em>{{page.extra.where}}</em>
-        <a class="symbol-link" href="../{{page.relative_path | replace(from=".md", to=".pdf") | safe}}">📄</a>
+        <a class="symbol-link" href="publications/{{page.extra.pdf | safe}}">📄</a>
         <a class="symbol-link" href="{{page.extra.doi | safe}}">🔗</a>
     </li>
     {% endfor %}

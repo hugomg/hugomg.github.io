@@ -6,4 +6,5 @@ title = "Pallene: A companion language for Lua (extended version)"
 authors = "Hugo Musso Gualandi, Roberto Ierusalimschy"
 where   = "Science of Computer Programming"
 doi     = "https://doi.org/10.1016/j.scico.2020.102393"
+pdf     = "2020-Pallene-ext.pdf"
 +++
