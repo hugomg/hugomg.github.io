@@ -21,4 +21,4 @@ Pós-doc na Universidade Técnica de Praga.
 
 ## Publicações
 
-Veja a lista completa [aqui](@content/publications/)
+Veja a lista completa [aqui](@/publications/_index.md)
