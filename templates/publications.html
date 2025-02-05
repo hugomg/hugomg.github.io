@@ -5,15 +5,14 @@
 <ol>
     {% for page in section.pages %}
     <li>
-        <strong>{{page.title}}</strong><br>
-        {{page.extra.authors}}, {{page.year}}<br>
-        <em>{{page.extra.where}}</em>
-        <a class="symbol-link" href="{{page.slug}}.pdf">pdf</a>
-        <a class="symbol-link" href="{{page.extra.doi | safe}}">doi</a>
+        <strong><a href="{{page.permalink | safe}}">{{page.title}}</a></strong><br>
+        {{page.extra.authors}}<br>
+        <em>{{page.extra.where}}</em>, {{page.year}}
+        <a class="symbol-link" href="{{page.slug}}.pdf">📄</a>
+        <a class="symbol-link" href="https://dx.doi.org/{{page.extra.doi}}">🔗</a>
     </li>
     {% endfor %}
 </ol>
-<h2>Thesis</h2>
 <ul>
     <li>
         <strong>The Pallene Programming Language</strong> <br>
