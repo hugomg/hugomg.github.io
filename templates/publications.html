@@ -8,12 +8,12 @@
         <strong>{{page.title}}</strong><br>
         {{page.extra.authors}}, {{page.year}}<br>
         <em>{{page.extra.where}}</em>
-        <a class="symbol-link" href="publications/{{page.extra.pdf | safe}}">📄</a>
-        <a class="symbol-link" href="{{page.extra.doi | safe}}">🔗</a>
+        <a class="symbol-link" href="{{page.slug}}.pdf">pdf</a>
+        <a class="symbol-link" href="{{page.extra.doi | safe}}">doi</a>
     </li>
     {% endfor %}
-</ul>
-<h1>Thesis</h1>
+</ol>
+<h2>Thesis</h2>
 <ul>
     <li>
         <strong>The Pallene Programming Language</strong> <br>
