@@ -1,10 +1,21 @@
 base_url = "https://hugomg.github.io"
+default_language = "pt"
 compile_sass = false
 build_search_index = false
 hard_link_static = true
 
 [markdown]
 highlight_code = true
+
+[languages.en]
+
+[languages.en.translations]
+lang_switch = "Trocar para Português"
+
+[languages.pt]
+
+[languages.pt.translations]
+lang_switch = "Switch to English"
 
 [extra]
 # Put all your custom variables here

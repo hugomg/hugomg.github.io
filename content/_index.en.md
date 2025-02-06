@@ -19,12 +19,6 @@ Masters and doctorate degrees from PUC-Rio, under the advisorship of
 Prof. Roberto Ierusalimschy.
 Post-doc at Czech Technical University.
 
-
-Bacharel em Ciências Moleculares pela Universidade de São Paulo.
-Mestrado e doutorado em informática na PUC-Rio,
-sob a orientação do Prof. Roberto Ierusalimschy.
-Pós-doc na Universidade Técnica de Praga.
-
 ## Publications
 
 See full list [here](@/publications/_index.md)
