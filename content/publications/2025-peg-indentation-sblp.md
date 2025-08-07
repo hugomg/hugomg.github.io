@@ -6,6 +6,7 @@ title = "Indentation-Sensitive Parsers for Free-Form Languages"
 authors = "Sérgio Queiroz de Medeiros, Hugo Musso Gualandi"
 where = "Brazilian Symposium on Programming Languages"
 doi   = "?"
+pdf   = "2025-peg-indentation-sblp.pdf"
 +++
 Consistent source code indentation is crucial for code readability, even in
 free-form languages that are oblivious to whitespace. However, as in a free-form

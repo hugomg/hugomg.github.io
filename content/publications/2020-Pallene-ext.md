@@ -6,6 +6,7 @@ title = "Pallene: A companion language for Lua (extended version)"
 authors = "Hugo Musso Gualandi, Roberto Ierusalimschy"
 where   = "Science of Computer Programming"
 doi     = "10.1016/j.scico.2020.102393"
+pdf     = "2020-Pallene-ext.pdf"
 +++
 The simplicity and flexibility of dynamic languages make them popular for prototyping and scripting, but
 the lack of compile-time type information makes it challenging to generate efficient executable code.

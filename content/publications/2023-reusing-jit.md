@@ -6,6 +6,7 @@ title = "Reusing Just-in-Time Compiled Code"
 authors = "Meetesh Kalpesh Mehta, Sebastián Krynski, Hugo Musso Gualandi, Manas Thakur, Jan Vitek"
 where   = "OOPSLA"
 doi     = "10.1145/3622839"
+pdf     = "2023-reusing-jit.pdf"
 +++
 Most code is executed more than once. If not entire programs then libraries remain unchanged from one run
 to the next. Just-in-time compilers expend considerable eﬀort gathering insights about code they compiled

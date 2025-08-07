@@ -8,7 +8,7 @@
         <strong><a href="{{page.permalink | safe}}">{{page.title}}</a></strong><br>
         {{page.extra.authors}}<br>
         <em>{{page.extra.where}}</em>, {{page.year}}
-        <a class="symbol-link" href="{{page.slug}}.pdf">📄</a>
+        <a class="symbol-link" href="{{page.extra.pdf}}">📄</a>
         <a class="symbol-link" href="https://dx.doi.org/{{page.extra.doi}}">🔗</a>
     </li>
     {% endfor %}

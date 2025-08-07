@@ -6,6 +6,7 @@ title   = "A Surprisingly Simple Lua Compiler (extended version)"
 authors = "Hugo Musso Gualandi, Roberto Ierusalimschy"
 where   = "Science of Computer Programming"
 doi     = "10.1016/j.cola.2022.101151"
+pdf     = "2022-LuaAOT-ext.pdf"
 +++
 Dynamically-typed programming languages are often implemented
 using interpreters, which offer several advantages in terms of portability
