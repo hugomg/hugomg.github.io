@@ -4,8 +4,8 @@ compile_sass = false
 build_search_index = false
 hard_link_static = true
 
-[markdown]
-highlight_code = true
+[markdown.highlighting]
+theme = "gruvbox-dark-hard"
 
 [languages.en]
 
