@@ -21,4 +21,8 @@ Pós-doc na Universidade Técnica de Praga.
 
 ## Publicações
 
-Veja a lista completa [aqui](@/publications/_index.md)
+Veja a lista completa [aqui](@/publications/_index.md).
+
+## Projetos para alunos
+
+Quer fazer pesquisa comigo? Veja minha lista de [ideias para projetos](@/ideias.md).
