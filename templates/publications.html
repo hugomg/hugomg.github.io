@@ -12,7 +12,7 @@
         <a class="symbol-link" href="{{page.extra.pdf}}">📄</a>
         {%- endif %}
         {% if page.extra.doi is defined -%}
-        <a class="symbol-link" href="https://dx.doi.org/{{page.extra.doi}}">🔗</a>
+        <a class="symbol-link" href="https://dx.doi.org/{{page.extra.doi | safe}}">🔗</a>
         {%- endif %}
     </li>
     {% endfor %}
