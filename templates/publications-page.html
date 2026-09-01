@@ -4,8 +4,12 @@
 <h1>{{page.title}}</h1>
 {{page.extra.authors}}<br>
 <em>{{page.extra.where}}</em>, {{page.year}}<br>
+{% if page.extra.pdf is defined %}
 <a class="symbol-link" href="../{{page.extra.pdf}}">Download</a><br>
+{% endif %}
+{% if page.extra.doi is defined %}
 <a class="symbol-link" href="https://dx.doi.org/{{page.extra.doi}}">DOI</a>
+{% endif %}
 <h2>Abstract</h2>
 {{ page.content | safe }}
 {% endblock content %}

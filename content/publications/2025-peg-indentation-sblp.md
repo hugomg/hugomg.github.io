@@ -5,7 +5,7 @@ title = "Indentation-Sensitive Parsers for Free-Form Languages"
 [extra]
 authors = "Sérgio Queiroz de Medeiros, Hugo Musso Gualandi"
 where = "Brazilian Symposium on Programming Languages"
-doi   = "?"
+doi   = "10.5753/sblp.2025.10650"
 pdf   = "2025-peg-indentation-sblp.pdf"
 +++
 Consistent source code indentation is crucial for code readability, even in
