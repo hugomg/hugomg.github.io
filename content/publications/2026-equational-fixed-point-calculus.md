@@ -4,7 +4,7 @@ title = "A Graphical and Equational Fixed Point Calculus"
 
 [extra]
 authors = "Gustavo de Mendonça Freire, Hugo Musso Gualandi, Hugo Nobrega, João Paixão"
-where = "International Conference on Functional Programming"
+where = "International Conference on Functional Programming (ICFP)"
 doi = "10.1145/3828673"
 pdf = "2026-equational-fixed-point-calculus.pdf"
 +++
